@@ -6,7 +6,6 @@ class cariotipo(models.Model):
 
     imagen = models.FileField(null=True,blank=True)
     
-    
     def __unicode__(self):
         return '{}'.format(str(self.id))
 
